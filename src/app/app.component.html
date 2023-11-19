@@ -1,9 +1,9 @@
-<div class="w-screen h-screen flex items-center justify-center">
+<div class="w-screen h-screen flex items-center justify-center bg-cover bg-cenetr bg-no-repeat" style="background-image: url('/assets/images/main_bg.png');">
   <form class="flex border-1 border-sloid border-slate-200 w-auto min-w-[500px] max-w-screen">
-    <input type="search" placeholder="Search projects"/>
-    <div class="relative flex items-center justify-center">
+    <input type="search" placeholder="Search projects"  class="flex-1"/>
+    <div class="relative flex items-center justify-center"  class="flex-1">
       <input type="text" placeholder="Search country" #countrySearchInput (input)="filterCountries(countrySearchInput.value)"/>
-      <input type="hidden" name="country" value="{{selectCountry}}" placeholder="Search country" />
+      <input type="hidden" name="country" value="{{selectCountry}}" placeholder="Search country"/>
       <div class="absolute w-full p-2 bg-red-100 rounded-[10px] top-[100%] h-auto max-h-[300px] overflow-y-auto" *ngIf="countries.length > 0">
         <div *ngFor="let country of countries" (click)="updateCountryValue(country)" class="flex gap-1 items-center justify-between cursor-pointer">
           <span>{{ country.name }}</span>
@@ -11,7 +11,7 @@
         </div>
       </div>
     </div>
-    <button>&#128269;</button>
+    <button  class="flex">&#128269;</button>
   </form>
 </div>
 <!-- <div>
