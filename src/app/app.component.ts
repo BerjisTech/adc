@@ -8,7 +8,7 @@ import { RegionsService } from './services/data/regions.service';
   standalone: true,
   imports: [CommonModule, RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss'] // Corrected from 'styleUrl' to 'styleUrls'
 })
 export class AppComponent {
   title = 'adc';
@@ -16,18 +16,18 @@ export class AppComponent {
   constructor(private regionsService: RegionsService) { }
 
   @ViewChild('countrySearchInput', { static: false }) countrySearchInputRef!: ElementRef<HTMLInputElement>;
-  
+
   countries: any[] = [];
-  selectCountry = '';
+  selectedCountry: any; // Corrected to be an object
 
   ngOnInit() {
-    
+    // Your initialization code
   }
 
   updateCountryValue(country: any) {
-    this.selectCountry = country.code3;
-    this.countrySearchInputRef.nativeElement.value = country.name
-    this.countries = []
+    this.selectedCountry = country;
+    this.countrySearchInputRef.nativeElement.value = country.name;
+    this.countries = [];
   }
 
   filterCountries(searchString: string) {
