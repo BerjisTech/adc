@@ -1,0 +1,380 @@
+[
+    {
+        "name": "Algeria",
+        "code3": "DZA",
+        "flag": "/assets/images/flags/dz.svg",
+        "code": "012",
+        "code2": "DZ"
+    },
+    {
+        "name": "Angola",
+        "code3": "AGO",
+        "flag": "/assets/images/flags/ao.svg",
+        "code": "024",
+        "code2": "AO"
+    },
+    {
+        "name": "Benin",
+        "code3": "BEN",
+        "flag": "/assets/images/flags/bj.svg",
+        "code": "204",
+        "code2": "BJ"
+    },
+    {
+        "name": "Botswana",
+        "code3": "BWA",
+        "flag": "/assets/images/flags/bw.svg",
+        "code": "072",
+        "code2": "BW"
+    },
+    {
+        "name": "Burkina Faso",
+        "code3": "BFA",
+        "flag": "/assets/images/flags/bf.svg",
+        "code": "854",
+        "code2": "BF"
+    },
+    {
+        "name": "Burundi",
+        "code3": "BDI",
+        "flag": "/assets/images/flags/bi.svg",
+        "code": "108",
+        "code2": "BI"
+    },
+    {
+        "name": "Cabo Verde",
+        "code3": "CPV",
+        "flag": "/assets/images/flags/cv.svg",
+        "code": "132",
+        "code2": "CV"
+    },
+    {
+        "name": "Cameroon",
+        "code3": "CMR",
+        "flag": "/assets/images/flags/cm.svg",
+        "code": "120",
+        "code2": "CM"
+    },
+    {
+        "name": "Central African Republic",
+        "code3": "CAF",
+        "flag": "/assets/images/flags/cf.svg",
+        "code": "140",
+        "code2": "CF"
+    },
+    {
+        "name": "Chad",
+        "code3": "TCD",
+        "flag": "/assets/images/flags/td.svg",
+        "code": "148",
+        "code2": "TD"
+    },
+    {
+        "name": "Comoros",
+        "code3": "COM",
+        "flag": "/assets/images/flags/km.svg",
+        "code": "174",
+        "code2": "KM"
+    },
+    {
+        "name": "Congo (Congo-Brazzaville)",
+        "code3": "COG",
+        "flag": "/assets/images/flags/cg.svg",
+        "code": "178",
+        "code2": "CG"
+    },
+    {
+        "name": "DR Congo (Congo-Kinshasa)",
+        "code3": "COD",
+        "flag": "/assets/images/flags/cd.svg",
+        "code": "180",
+        "code2": "CD"
+    },
+    {
+        "name": "Djibouti",
+        "code3": "DJI",
+        "flag": "/assets/images/flags/dj.svg",
+        "code": "262",
+        "code2": "DJ"
+    },
+    {
+        "name": "Egypt",
+        "code3": "EGY",
+        "flag": "/assets/images/flags/eg.svg",
+        "code": "818",
+        "code2": "EG"
+    },
+    {
+        "name": "Equatorial Guinea",
+        "code3": "GNQ",
+        "flag": "/assets/images/flags/gq.svg",
+        "code": "226",
+        "code2": "GQ"
+    },
+    {
+        "name": "Eritrea",
+        "code3": "ERI",
+        "flag": "/assets/images/flags/er.svg",
+        "code": "232",
+        "code2": "ER"
+    },
+    {
+        "name": "Eswatini (fmr. Swaziland)",
+        "code3": "SWZ",
+        "flag": "/assets/images/flags/sz.svg",
+        "code": "748",
+        "code2": "SZ"
+    },
+    {
+        "name": "Ethiopia",
+        "code3": "ETH",
+        "flag": "/assets/images/flags/et.svg",
+        "code": "231",
+        "code2": "ET"
+    },
+    {
+        "name": "Gabon",
+        "code3": "GAB",
+        "flag": "/assets/images/flags/ga.svg",
+        "code": "266",
+        "code2": "GA"
+    },
+    {
+        "name": "Gambia",
+        "code3": "GMB",
+        "flag": "/assets/images/flags/gm.svg",
+        "code": "270",
+        "code2": "GM"
+    },
+    {
+        "name": "Ghana",
+        "code3": "GHA",
+        "flag": "/assets/images/flags/gh.svg",
+        "code": "288",
+        "code2": "GH"
+    },
+    {
+        "name": "Guinea",
+        "code3": "GIN",
+        "flag": "/assets/images/flags/gn.svg",
+        "code": "324",
+        "code2": "GN"
+    },
+    {
+        "name": "Guinea-Bissau",
+        "code3": "GNB",
+        "flag": "/assets/images/flags/gw.svg",
+        "code": "624",
+        "code2": "GW"
+    },
+    {
+        "name": "Ivory Coast",
+        "code3": "CIV",
+        "flag": "/assets/images/flags/ci.svg",
+        "code": "384",
+        "code2": "CI"
+    },
+    {
+        "name": "Kenya",
+        "code3": "KEN",
+        "flag": "/assets/images/flags/ke.svg",
+        "code": "404",
+        "code2": "KE"
+    },
+    {
+        "name": "Lesotho",
+        "code3": "LSO",
+        "flag": "/assets/images/flags/ls.svg",
+        "code": "426",
+        "code2": "LS"
+    },
+    {
+        "name": "Liberia",
+        "code3": "LBR",
+        "flag": "/assets/images/flags/lr.svg",
+        "code": "430",
+        "code2": "LR"
+    },
+    {
+        "name": "Libya",
+        "code3": "LBY",
+        "flag": "/assets/images/flags/ly.svg",
+        "code": "434",
+        "code2": "LY"
+    },
+    {
+        "name": "Madagascar",
+        "code3": "MDG",
+        "flag": "/assets/images/flags/mg.svg",
+        "code": "450",
+        "code2": "MG"
+    },
+    {
+        "name": "Malawi",
+        "code3": "MWI",
+        "flag": "/assets/images/flags/mw.svg",
+        "code": "454",
+        "code2": "MW"
+    },
+    {
+        "name": "Mali",
+        "code3": "MLI",
+        "flag": "/assets/images/flags/ml.svg",
+        "code": "466",
+        "code2": "ML"
+    },
+    {
+        "name": "Mauritania",
+        "code3": "MRT",
+        "flag": "/assets/images/flags/mr.svg",
+        "code": "478",
+        "code2": "MR"
+    },
+    {
+        "name": "Mauritius",
+        "code3": "MUS",
+        "flag": "/assets/images/flags/mu.svg",
+        "code": "480",
+        "code2": "MU"
+    },
+    {
+        "name": "Morocco",
+        "code3": "MAR",
+        "flag": "/assets/images/flags/ma.svg",
+        "code": "504",
+        "code2": "MA"
+    },
+    {
+        "name": "Mozambique",
+        "code3": "MOZ",
+        "flag": "/assets/images/flags/mz.svg",
+        "code": "508",
+        "code2": "MZ"
+    },
+    {
+        "name": "Namibia",
+        "code3": "NAM",
+        "flag": "/assets/images/flags/na.svg",
+        "code": "516",
+        "code2": "NA"
+    },
+    {
+        "name": "Niger",
+        "code3": "NER",
+        "flag": "/assets/images/flags/ne.svg",
+        "code": "562",
+        "code2": "NE"
+    },
+    {
+        "name": "Nigeria",
+        "code3": "NGA",
+        "flag": "/assets/images/flags/ng.svg",
+        "code": "566",
+        "code2": "NG"
+    },
+    {
+        "name": "Rwanda",
+        "code3": "RWA",
+        "flag": "/assets/images/flags/rw.svg",
+        "code": "646",
+        "code2": "RW"
+    },
+    {
+        "name": "São Tomé & Príncipe",
+        "code3": "STP",
+        "flag": "/assets/images/flags/st.svg",
+        "code": "678",
+        "code2": "ST"
+    },
+    {
+        "name": "Senegal",
+        "code3": "SEN",
+        "flag": "/assets/images/flags/sn.svg",
+        "code": "686",
+        "code2": "SN"
+    },
+    {
+        "name": "Seychelles",
+        "code3": "SYC",
+        "flag": "/assets/images/flags/sc.svg",
+        "code": "690",
+        "code2": "SC"
+    },
+    {
+        "name": "Sierra Leone",
+        "code3": "SLE",
+        "flag": "/assets/images/flags/sl.svg",
+        "code": "694",
+        "code2": "SL"
+    },
+    {
+        "name": "Somalia",
+        "code3": "SOM",
+        "flag": "/assets/images/flags/so.svg",
+        "code": "706",
+        "code2": "SO"
+    },
+    {
+        "name": "South Africa",
+        "code3": "ZAF",
+        "flag": "/assets/images/flags/za.svg",
+        "code": "710",
+        "code2": "ZA"
+    },
+    {
+        "name": "South Sudan",
+        "code3": "SSD",
+        "flag": "/assets/images/flags/ss.svg",
+        "code": "728",
+        "code2": "SS"
+    },
+    {
+        "name": "Sudan",
+        "code3": "SDN",
+        "flag": "/assets/images/flags/sd.svg",
+        "code": "729",
+        "code2": "SD"
+    },
+    {
+        "name": "Tanzania",
+        "code3": "TZA",
+        "flag": "/assets/images/flags/tz.svg",
+        "code": "834",
+        "code2": "TZ"
+    },
+    {
+        "name": "Togo",
+        "code3": "TGO",
+        "flag": "/assets/images/flags/tg.svg",
+        "code": "768",
+        "code2": "TG"
+    },
+    {
+        "name": "Tunisia",
+        "code3": "TUN",
+        "flag": "/assets/images/flags/tn.svg",
+        "code": "788",
+        "code2": "TN"
+    },
+    {
+        "name": "Uganda",
+        "code3": "UGA",
+        "flag": "/assets/images/flags/ug.svg",
+        "code": "800",
+        "code2": "UG"
+    },
+    {
+        "name": "Zambia",
+        "code3": "ZMB",
+        "flag": "/assets/images/flags/zm.svg",
+        "code": "894",
+        "code2": "ZM"
+    },
+    {
+        "name": "Zimbabwe",
+        "code3": "ZWE",
+        "flag": "/assets/images/flags/zw.svg",
+        "code": "716",
+        "code2": "ZW"
+    }
+]

@@ -1,10 +1,23 @@
-<div>
-  <!-- Loop 10 times using ngFor -->
+<div class="w-screen h-screen flex items-center justify-center">
+  <form class="flex border-1 border-sloid border-slate-200 w-auto min-w-[500px] max-w-screen">
+    <input type="search" placeholder="Search projects"/>
+    <div class="relative flex items-center justify-center">
+      <input type="text" placeholder="Search country" #countrySearchInput (input)="filterCountries(countrySearchInput.value)"/>
+      <input type="hidden" name="country" value="{{selectCountry}}" placeholder="Search country" />
+      <div class="absolute w-full p-2 bg-red-100 rounded-[10px] top-[100%] h-auto max-h-[300px] overflow-y-auto" *ngIf="countries.length > 0">
+        <div *ngFor="let country of countries" (click)="updateCountryValue(country)" class="flex gap-1 items-center justify-between cursor-pointer">
+          <span>{{ country.name }}</span>
+          <img src={{country.flag}} alt={{country.name}} class="w-[30px]"/>
+        </div>
+      </div>
+    </div>
+    <button>&#128269;</button>
+  </form>
+</div>
+<!-- <div>
   <div *ngFor="let i of [1,2,3,4,5,6,7,8,9,10]">
-    <!-- Create a flexbox with 2 columns, if i is even display on the second column otherwise display on first column -->
     <div class="flex w-full items-center justify-center">
       <div class="flex-1 text-right w-full h-auto min-h-[200px]">
-        <!--  Display if I is even -->
         <div *ngIf="i % 2 !== 0" class="bg-blue-600 block p-2 h-full w-full">
           {{ i}}
         </div>
@@ -19,4 +32,4 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
